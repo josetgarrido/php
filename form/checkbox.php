@@ -1,4 +1,3 @@
-
 <form method="post">
    <input type="checkbox" name="check_list[]" value="1"> 1
    <input type="checkbox" name="check_list[]" value="2"> 2
