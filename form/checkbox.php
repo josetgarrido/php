@@ -10,10 +10,10 @@
 if(isset($_POST['submit'])) {
    echo "Checkbox envoy:";
    echo "<br>";
-    if(!isset($_POST['check_list[]'])) {
-        foreach($_POST['check_list'] as $value){
-        echo "<br>". $value ." was checked!";
-     }
-    }
+   if(!isset($_POST['check_list[]'])) {
+      foreach($_POST['check_list'] as $value){
+      echo "<br>". $value ." was checked!";
+      }
+   }
 }
 ?>
